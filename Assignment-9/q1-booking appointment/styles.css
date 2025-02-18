@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.service-list {
+    margin: 10px auto;
+    width: 90%;
+    max-width: 400px;
+}
+
+.service {
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: bisque;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+.form-popup {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.form-popup input, .form-popup select, .form-popup textarea {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.form-popup label {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.popup {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}

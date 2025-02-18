@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Booking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to the Online Appointment Booking Page</h1>
+    <h2>Book Your Slot Now</h2>
+
+    <div class="service-list">
+        <div class="service">
+            <p>Car Service <button onclick="openForm(this, 'Car Service')">Book Now</button></p>
+            <div class="form-container"></div>
+        </div>
+
+        <div class="service">
+            <p>Doctor Consultation <button onclick="openForm(this, 'Doctor Consultation')">Book Now</button></p>
+            <div class="form-container"></div>
+        </div>
+
+        <div class="service">
+            <p>Salon Appointment <button onclick="openForm(this, 'Salon Appointment')">Book Now</button></p>
+            <div class="form-container"></div>
+        </div>
+    </div>
+
+    <div id="appointmentsList">
+        <h3>Booked Appointments:</h3>
+        <ul id="appointments"></ul>
+    </div>
+
+    <div id="confirmationPopup" class="popup">
+        <span id="confirmationMessage"></span>
+        <button onclick="closePopup()">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
